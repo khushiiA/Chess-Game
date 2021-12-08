@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+	background: #222;
+	overflow: hidden;
+}
+
+#grid {
+	position: fixed;
+	z-index: 3;
+	top: 0;
+	left: 0;
+}
+
+.t_col {
+	display: table-cell;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	border-radius: 15%;
+	margin: 0;
+	font-size: 0; /* this would remove the unnecessary padding from the cell*/
+}
+
+.t_row {
+	display: table-row;
+}
+
+#box {
+	height: 150px;
+	width : 400px;
+	background-color: #e7e7e7;
+
+	position: fixed;
+	left: calc(50% - 200px);
+	top : calc(50% - 75px);
+
+	text-align : center;
+	font-family: consolas;
+	font-size  : 26px;
+	text-transform: uppercase;
+	z-index    : 5;
+
+	border-radius: 10px;
+	box-shadow   : 5px 5px 10px #333;
+	visibility   : hidden;
+}
+
+#close-box {
+	font     : inherit;
+	font-size: 20px;
+	font-weight: lighter;
+	
+	border       : 2px solid #afafaf;
+	border-radius: 5px;
+
+	height: 40px;
+	width: 100px;
+}

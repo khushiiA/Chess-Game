@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Home </title>
+
+		<meta charset = 'UTF-8' />
+		<meta name = 'description' content = 'home page' />
+		<meta name = 'viewport' content = 'width=device-width, initial-scale=1.0' />
+
+		<link rel = 'stylesheet' href = './stylesheets/h_style.css' />
+	</head>
+
+	<body>
+		<div id = 'header'> Two Player Chess</div>
+		<form id = 'join-game' method = 'POST' action = '/index.html'>
+			<input type = 'text' name = 'gameid' maxlength = '8' minlength = '8' autocapitalize = 'characters' required/> <br />
+			<input type = 'submit' name = 'create' value = 'CREATE NEW GAME' /> <br />
+		</form>
+
+		<div id = 'footer'></div>
+	</body>
+
+</html>

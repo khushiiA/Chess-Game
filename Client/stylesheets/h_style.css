@@ -1,0 +1,67 @@
+body {
+	background-color: #bebebe;
+	margin: 0;
+	overflow: hidden;
+}
+
+#header {
+	position: fixed;
+	height  : 40px;
+	width   : 100%;
+	background-color: #151515;
+
+	text-align : center;
+	color      : #dfdfdf;
+	font-family: monospace;
+	font-size  : 25px;
+	padding-top: 10px;
+
+	box-shadow: 0 1em 5em #fff;
+}
+
+#join-game {
+	position: absolute;
+	text-align: center;
+	
+	height: calc(100% - 150px);
+	width : 500px;
+	left  : calc(50% - 250px);
+	padding-top: 150px; 
+}
+
+form#join-game > input[type = text] {
+	height: 40px;
+	width : 60%;
+	margin: 0 0 10px 0;
+
+	border-radius: 5px;
+	border: none;
+
+	font-size  : 20px;
+	text-align : center;
+	font-family: consolas;
+	text-transform: uppercase;
+}
+
+form#join-game > input[type = submit] {
+	height: 30px;
+	width : 30%;
+	margin: 10px 0 10px 0;
+	background-color: #f9f9f9;
+
+	font-family: consolas;
+	font-size  : 15px;
+	font-weight: bolder;
+
+	border-radius: 5px;
+	border       : 1px solid black;
+}
+
+#footer {
+	position: fixed;
+	height  : 50px;
+	width   : 100%;
+	bottom  : 0px;
+	left    : 0;
+	background-color: #151515;
+}
